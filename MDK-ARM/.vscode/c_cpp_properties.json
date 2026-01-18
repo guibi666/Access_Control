@@ -3,16 +3,17 @@
         {
             "name": "Intelligent Access Control Management System Based on STM32",
             "includePath": [
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\Core\\Inc",
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\Drivers\\CMSIS\\Include",
+                "d:\\KeilProject\\Access_Control\\Core\\Inc",
+                "d:\\KeilProject\\Access_Control\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "d:\\KeilProject\\Access_Control\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                "d:\\KeilProject\\Access_Control\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "d:\\KeilProject\\Access_Control\\Drivers\\CMSIS\\Include",
                 "D:\\Keil\\ARM\\ARMCC\\include",
                 "D:\\Keil\\ARM\\ARMCC\\include\\rw",
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\MDK-ARM",
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\Core\\Src",
-                "d:\\KeilProject\\Intelligent_Access_Control_Management_System_Based_on_STM32\\Drivers\\STM32F1xx_HAL_Driver\\Src"
+                "d:\\KeilProject\\Access_Control\\MDK-ARM",
+                "d:\\KeilProject\\Access_Control\\Core\\Src",
+                "d:\\KeilProject\\Access_Control\\Drivers\\STM32F1xx_HAL_Driver\\Src",
+                "d:\\KeilProject\\Access_Control\\Interface"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
