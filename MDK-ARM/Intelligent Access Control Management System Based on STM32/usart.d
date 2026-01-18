@@ -29,3 +29,4 @@ intelligent access control management system based on stm32\usart.o: ../Drivers/
 intelligent access control management system based on stm32\usart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 intelligent access control management system based on stm32\usart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 intelligent access control management system based on stm32\usart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+intelligent access control management system based on stm32\usart.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h

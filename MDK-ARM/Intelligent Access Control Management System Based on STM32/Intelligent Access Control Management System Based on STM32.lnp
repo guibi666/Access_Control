@@ -24,6 +24,7 @@
 "intelligent access control management system based on stm32\stm32f1xx_hal_tim_ex.o"
 "intelligent access control management system based on stm32\stm32f1xx_hal_uart.o"
 "intelligent access control management system based on stm32\system_stm32f1xx.o"
+"intelligent access control management system based on stm32\rc522.o"
 --strict --scatter "Intelligent Access Control Management System Based on STM32\Intelligent Access Control Management System Based on STM32.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
