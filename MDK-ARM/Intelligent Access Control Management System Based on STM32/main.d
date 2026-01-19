@@ -32,3 +32,4 @@ intelligent access control management system based on stm32\main.o: ../Core/Inc/
 intelligent access control management system based on stm32\main.o: ../Core/Inc/spi.h
 intelligent access control management system based on stm32\main.o: ../Core/Inc/usart.h
 intelligent access control management system based on stm32\main.o: ../Core/Inc/gpio.h
+intelligent access control management system based on stm32\main.o: ..\Interface\OLED.h

@@ -1,0 +1,1 @@
+intelligent_access_control_management_system_based_on_stm32\startup_stm32f103xb.o: startup_stm32f103xb.s

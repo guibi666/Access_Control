@@ -472,13 +472,13 @@ ARM Macro Assembler    Page 8
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend="intelligent access control management system based on stm32\start
-up_stm32f103xb.d" -o"intelligent access control management system based on stm3
-2\startup_stm32f103xb.o" -I.\RTE\_Intelligent_Access_Control_Management_System_
-Based_on_STM32 -ID:\Keil\ARM\PACK\ARM\CMSIS\6.2.0\CMSIS\Core\Include -ID:\Keil\
-ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include --predefine="__UVISION_VERSION
- SETA 543" --predefine="STM32F10X_MD SETA 1" --predefine="_RTE_ SETA 1" --list=
-startup_stm32f103xb.lst startup_stm32f103xb.s
+ork --depend=intelligent_access_control_management_system_based_on_stm32\startu
+p_stm32f103xb.d -ointelligent_access_control_management_system_based_on_stm32\s
+tartup_stm32f103xb.o -I.\RTE\_Intelligent_Access_Control_Management_System_Base
+d_on_STM32 -ID:\Keil\ARM\PACK\ARM\CMSIS\6.2.0\CMSIS\Core\Include -ID:\Keil\ARM\
+PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include --predefine="__UVISION_VERSION SET
+A 543" --predefine="STM32F10X_MD SETA 1" --predefine="_RTE_ SETA 1" --list=star
+tup_stm32f103xb.lst startup_stm32f103xb.s
 
 
 
