@@ -1,0 +1,12 @@
+intelligent_access_control_management_system_based_on_stm32\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h
+intelligent_access_control_management_system_based_on_stm32\port.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+intelligent_access_control_management_system_based_on_stm32\port.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ../Core/Inc/FreeRTOSConfig.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h
+intelligent_access_control_management_system_based_on_stm32\port.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h

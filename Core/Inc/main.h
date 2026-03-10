@@ -57,12 +57,28 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define Servo_Pin GPIO_PIN_0
+#define Servo_GPIO_Port GPIOA
+#define LED_Pin GPIO_PIN_1
+#define LED_GPIO_Port GPIOA
 #define RC522_CS_Pin GPIO_PIN_0
 #define RC522_CS_GPIO_Port GPIOB
 #define RC522_RST_Pin GPIO_PIN_1
 #define RC522_RST_GPIO_Port GPIOB
-#define Buzzer_Pin GPIO_PIN_12
-#define Buzzer_GPIO_Port GPIOB
+#define KEY_R1_Pin GPIO_PIN_8
+#define KEY_R1_GPIO_Port GPIOA
+#define KEY_R2_Pin GPIO_PIN_9
+#define KEY_R2_GPIO_Port GPIOA
+#define KEY_R3_Pin GPIO_PIN_10
+#define KEY_R3_GPIO_Port GPIOA
+#define KEY_R4_Pin GPIO_PIN_11
+#define KEY_R4_GPIO_Port GPIOA
+#define KEY_C1_Pin GPIO_PIN_12
+#define KEY_C1_GPIO_Port GPIOA
+#define KEY_C2_Pin GPIO_PIN_15
+#define KEY_C2_GPIO_Port GPIOA
+#define KEY_C3_Pin GPIO_PIN_3
+#define KEY_C3_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

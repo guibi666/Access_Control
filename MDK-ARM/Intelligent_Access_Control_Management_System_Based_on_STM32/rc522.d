@@ -29,5 +29,6 @@ intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
-intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Core/Inc/gpio.h

@@ -102,11 +102,16 @@
                 "d:\\KeilProject\\Access_Control\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
                 "d:\\KeilProject\\Access_Control\\Drivers\\CMSIS\\Include",
                 "d:\\KeilProject\\Access_Control\\Interface",
+                "d:\\KeilProject\\Access_Control\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
+                "d:\\KeilProject\\Access_Control\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
+                "d:\\KeilProject\\Access_Control\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM3",
+                "d:\\KeilProject\\Access_Control\\Middlewares\\Third_Party\\FreeRTOS\\Source",
                 "D:\\Keil\\ARM\\ARMCC\\include",
                 "D:\\Keil\\ARM\\ARMCC\\include\\rw",
                 "d:\\KeilProject\\Access_Control\\MDK-ARM",
                 "d:\\KeilProject\\Access_Control\\Core\\Src",
-                "d:\\KeilProject\\Access_Control\\Drivers\\STM32F1xx_HAL_Driver\\Src"
+                "d:\\KeilProject\\Access_Control\\Drivers\\STM32F1xx_HAL_Driver\\Src",
+                "d:\\KeilProject\\Access_Control\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
