@@ -111,7 +111,8 @@
                 "d:\\KeilProject\\Access_Control\\MDK-ARM",
                 "d:\\KeilProject\\Access_Control\\Core\\Src",
                 "d:\\KeilProject\\Access_Control\\Drivers\\STM32F1xx_HAL_Driver\\Src",
-                "d:\\KeilProject\\Access_Control\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
+                "d:\\KeilProject\\Access_Control\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang",
+                "d:\\KeilProject\\Access_Control\\APP"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

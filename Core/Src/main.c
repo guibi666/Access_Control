@@ -27,6 +27,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "OLED.h"
+#include "Buzzer.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -94,24 +95,33 @@ int main(void)
   MX_SPI1_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  OLED_Init();
+  //OLED_Init();
   
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */
-  MX_FREERTOS_Init();
+  //MX_FREERTOS_Init();
 
   /* Start scheduler */
+  /*
   osKernelStart();
+  !!!!!!!!!!!!!!!!!!!
+  !!!!!!!!!!!!!!!!!!!
+  !!!!!!!!!!!!!!!!!!!
+  */
 
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  Buzzer_Work();
   while (1)
   {
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
-    
+    Buzzer_Work();
+    HAL_Delay(1000);
+    Buzzer_NoWork();
+    HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }

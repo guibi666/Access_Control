@@ -61,6 +61,8 @@ void Error_Handler(void);
 #define Servo_GPIO_Port GPIOA
 #define LED_Pin GPIO_PIN_1
 #define LED_GPIO_Port GPIOA
+#define Buzzer_Pin GPIO_PIN_2
+#define Buzzer_GPIO_Port GPIOA
 #define RC522_CS_Pin GPIO_PIN_0
 #define RC522_CS_GPIO_Port GPIOB
 #define RC522_RST_Pin GPIO_PIN_1

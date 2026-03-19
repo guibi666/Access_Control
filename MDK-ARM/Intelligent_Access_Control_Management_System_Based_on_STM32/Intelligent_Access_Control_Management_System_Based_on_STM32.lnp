@@ -27,6 +27,9 @@
 "intelligent_access_control_management_system_based_on_stm32\system_stm32f1xx.o"
 "intelligent_access_control_management_system_based_on_stm32\oled.o"
 "intelligent_access_control_management_system_based_on_stm32\rc522.o"
+"intelligent_access_control_management_system_based_on_stm32\buzzer.o"
+"intelligent_access_control_management_system_based_on_stm32\led.o"
+"intelligent_access_control_management_system_based_on_stm32\servor.o"
 "intelligent_access_control_management_system_based_on_stm32\croutine.o"
 "intelligent_access_control_management_system_based_on_stm32\event_groups.o"
 "intelligent_access_control_management_system_based_on_stm32\list.o"
@@ -37,6 +40,11 @@
 "intelligent_access_control_management_system_based_on_stm32\cmsis_os.o"
 "intelligent_access_control_management_system_based_on_stm32\heap_4.o"
 "intelligent_access_control_management_system_based_on_stm32\port.o"
+"intelligent_access_control_management_system_based_on_stm32\app_buzzer.o"
+"intelligent_access_control_management_system_based_on_stm32\app_led.o"
+"intelligent_access_control_management_system_based_on_stm32\app_oled.o"
+"intelligent_access_control_management_system_based_on_stm32\app_rc522.o"
+"intelligent_access_control_management_system_based_on_stm32\app_servor.o"
 --strict --scatter "Intelligent_Access_Control_Management_System_Based_on_STM32\Intelligent_Access_Control_Management_System_Based_on_STM32.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
