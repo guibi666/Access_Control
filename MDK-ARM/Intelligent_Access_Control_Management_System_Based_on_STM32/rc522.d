@@ -1,7 +1,4 @@
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ..\Interface\RC522.c
-intelligent_access_control_management_system_based_on_stm32\rc522.o: ..\Interface\RC522.h
-intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Core/Inc/spi.h
-intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Core/Inc/main.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Core/Inc/stm32f1xx_hal_conf.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
@@ -31,4 +28,7 @@ intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
-intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Core/Inc/gpio.h
+intelligent_access_control_management_system_based_on_stm32\rc522.o: ..\Interface\rc522.h
+intelligent_access_control_management_system_based_on_stm32\rc522.o: ../Core/Inc/main.h
+intelligent_access_control_management_system_based_on_stm32\rc522.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+intelligent_access_control_management_system_based_on_stm32\rc522.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h

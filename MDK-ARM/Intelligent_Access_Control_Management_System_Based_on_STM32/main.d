@@ -49,3 +49,4 @@ intelligent_access_control_management_system_based_on_stm32\main.o: ../Core/Inc/
 intelligent_access_control_management_system_based_on_stm32\main.o: ../Core/Inc/gpio.h
 intelligent_access_control_management_system_based_on_stm32\main.o: ../Interface/OLED.h
 intelligent_access_control_management_system_based_on_stm32\main.o: ../Interface/Buzzer.h
+intelligent_access_control_management_system_based_on_stm32\main.o: ../Interface/RC522.h

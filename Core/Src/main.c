@@ -28,6 +28,7 @@
 /* USER CODE BEGIN Includes */
 #include "OLED.h"
 #include "Buzzer.h"
+#include "RC522.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -103,25 +104,43 @@ int main(void)
   //MX_FREERTOS_Init();
 
   /* Start scheduler */
-  /*
-  osKernelStart();
-  !!!!!!!!!!!!!!!!!!!
-  !!!!!!!!!!!!!!!!!!!
-  !!!!!!!!!!!!!!!!!!!
-  */
+  //osKernelStart();
 
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  Buzzer_Work();
+  int8_t status;
+  unsigned char TagType[2];  // 卡片类型
+  unsigned char SN[4];       // 4字节卡号
+
+  RC522_Init();
+  OLED_Init();
+  OLED_Clear();
+
   while (1)
   {
     /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
-    Buzzer_Work();
-    HAL_Delay(1000);
-    Buzzer_NoWork();
-    HAL_Delay(1000);
+    status = RC522_Request(PICC_REQIDL, TagType);
+    OLED_ShowSignedNum(4,1,status,4);
+    if(status == MI_OK)
+    {
+        // 防冲突读取UID
+        if(RC522_Anticoll(SN) == MI_OK)
+        {
+      
+          OLED_ShowHexNum(1, 1, SN[0], 2);
+          OLED_ShowHexNum(1,3, SN[1], 2);
+          OLED_ShowHexNum(1,5, SN[2], 2);
+          OLED_ShowHexNum(1,7, SN[3], 2);
+            
+          // 卡片休眠
+          RC522_Halt();
+        }
+    }
+    HAL_Delay(200); 
+
   }
   /* USER CODE END 3 */
 }

@@ -54,10 +54,7 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOA, Buzzer_Pin|KEY_C1_Pin|KEY_C2_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, RC522_CS_Pin|RC522_RST_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(KEY_C3_GPIO_Port, KEY_C3_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, RC522_CS_Pin|RC522_RST_Pin|KEY_C3_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pins : PAPin PAPin PAPin */
   GPIO_InitStruct.Pin = Buzzer_Pin|KEY_C1_Pin|KEY_C2_Pin;
